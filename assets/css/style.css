@@ -1,0 +1,29 @@
+/* fuente, color de fondo, reseteo de margen y padding base */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+/* cambio de color para que se lea en algunos fondos */
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    color: #fff;
+}
+
+/* renders de imagen: pixelado y optimización para navegadores.
+ancho fijo y altura automática al contenedor */
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    width: 400px;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
