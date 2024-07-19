@@ -24,6 +24,13 @@ img {
     height: auto;
 }
 
+/* para listas */
 .hidden {
     display: none;
+}
+
+.nes-select.is-dark option {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    color: #fff;
 }
