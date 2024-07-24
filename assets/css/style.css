@@ -1,7 +1,9 @@
 /* fuente, color de fondo, reseteo de margen y padding base */
 body {
     font-family: 'Press Start 2P', cursive;
-    background-color: #000000;
+    background: black;
+    background-image: url("/assets/img/anim/galax.gif");
+    background-size: auto;
     margin: 0;
     padding: 20px;
 }
@@ -27,10 +29,4 @@ img {
 /* para listas */
 .hidden {
     display: none;
-}
-
-.nes-select.is-dark option {
-    font-family: 'Press Start 2P', cursive;
-    font-size: small;
-    color: #fff;
 }

@@ -40,8 +40,8 @@
             <div class="my-4 nes-container is-centered is-dark with-title is-rounded">
                 <p class="title">Habilidades</p>
                 <div class="row">
-                    <div class="col-md-6 text-center">
-                        <ul id="skill-set" class="nes-list">
+                    <div class="col-md-6 col-sm-6 text-center">
+                        <ul id="skill-set" class="nes-list d-none d-lg-block">
                             <li>* HTML/CSS</li>
                             <li>* JavaScript</li>
                             <li>* Java/SpringBoot</li>
@@ -50,8 +50,19 @@
                             <li>* Ciberseguridad</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center">
-                        <ul id="skill-icono" class="nes-list">
+                    <!-- contenedor habilidades pequeño -->
+                    <div class="col-md-12 text-start d-block d-lg-none">
+                        <ul id="skill-set" class="nes-list">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Java/SpringBoot</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Ciberseguridad</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 text-center">
+                        <ul id="skill-icono" class="nes-list d-none d-lg-block">
                             <div id="estrellas">
                             <!-- HTML/CSS -->
                             <li><i class="nes-icon is-small star"></i>
@@ -166,8 +177,8 @@
                     </div>
                     <!-- BOTON!!!! -->
                     <div class="row col-md-12">
-                        <div class="nes-container is-rounded">
-                            <button id="boton-rotativo" class="nes-btn is-primary">¡Cambiar!</button>
+                        <div class="nes-container is-rounded d-none d-lg-block">
+                            <button id="boton-rotativo" class="nes-btn is-primary">¡Rotar estilo!</button>
                         </div>
                     </div>
                 </div>
